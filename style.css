@@ -1,0 +1,32 @@
+.container{
+    padding: 30px;
+}
+
+.form-wrapper{
+    width: 500px;
+}
+
+.form-group{
+    display: flex;
+    padding: 0 25px 0 0;
+    margin-bottom: 5px;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.form-label{
+    width: 25%;
+    text-align: right;
+    padding-right: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(23, 185, 131);
+}

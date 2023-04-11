@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+         <h1>Loan Application</h1>
+            <h2>Applicant Information</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fname" class="form-label">First Name:</label>
+                    <input type="text" id="fname" name="fname" class="w-75" value="John">
+                </div>
+                <div class="form-group">
+                    <label for="lname" class="form-label">Last Name:</label>
+                    <input type="text" id="lname" name="lname" class="w-75" value="Smith">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Id:</label>
+                    <input type="email" id="email" name="email" class="w-75" value="john.smith@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="ss" class="form-label">Social Security#:</label>
+                    <input type="text" id="ss" name="ss" value="123-45-6789">
+                </div>
+                <div class="form-group">
+                    <label for="daytimephone" class="form-label">Daytime Phone:</label>
+                    <input type="tel" id="daytimephone" name="daytimephone" value="2039299400">
+                </div>
+                <div class="form-group">
+                    <label for="eveningphone" class="form-label">Evening Phone:</label>
+                    <input type="tel" id="eveningphone" name="eveningphone" value="2034599400">
+                </div>
+                <h2>Loan Information</h2>
+                <div class="form-group">
+                    <label for="loantype" class="form-label">Loan Type:</label>
+                    <select name="loantype" id="loantype">
+                        <option value="automobile">Automobile</option>
+                        <option value="gold">Gold</option>\
+                        <option value="home">Home</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="loanamount" class="form-label">Loan Amount$:</label>
+                    <input type="number" name="loanamount" id="loanamount" value="15000">
+                </div>
+                <div class="form-group">
+                    <label for="description" class="form-label">Description:</label>
+                    <textarea name="description" id="description" cols="50" rows="5">Application to finance the purchase of Toyata prius</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="submit">Submit Application:</label>
+                    <input type="submit" value="Apply for Loan">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
