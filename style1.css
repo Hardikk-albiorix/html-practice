@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #fff;
+    text-align: center;
+}
+
+nav{
+    background-color: #fff;
+    text-align: center; 
+}
+
+main{
+    display: flex;
+    height: 500px;
+   }
+
+
+.content{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-primary{
+    border: 10px solid rgb(119, 7, 205);
+}
+
+aside{
+    flex:1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section,article{
+    height: 100%;
+    text-align: center;
+    padding: 75px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
